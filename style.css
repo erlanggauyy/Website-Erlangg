@@ -67,6 +67,7 @@ main { position: relative; padding-top: 3.5rem; }
   margin-bottom: 1.5rem;
 }
 .avatar span {
+  display: none;
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 2.2rem;
   color: var(--accent);

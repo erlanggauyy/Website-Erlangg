@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raditya Bima Erlangga</title>
+  <meta name="description" content="Mahasiswa Teknologi Rekayasa Elektro UGM. Portofolio dan CV online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <svg class="wave" viewBox="0 0 800 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60 C 50 0, 100 0, 150 60 S 250 120, 300 60 S 400 0, 450 60 S 550 120, 600 60 S 700 0, 750 60 S 800 90, 800 60" />
+  </svg>
+
+  <main class="wrap">
+
+    <!-- BAGIAN AWAL: nama, moto, tentang saya -->
+    <section class="intro">
+      <div class="avatar">
+        <span>RB</span>
+        <!-- Taruh foto di folder yang sama dengan nama: foto.jpg -->
+        <img src="foto.jpg" alt="Foto Raditya Bima Erlangga" onerror="this.remove()">
+      </div>
+      <h1>Raditya Bima Erlangga</h1>
+      <p class="motto">Di dunia teknik tidak ada kegagalan, yang ada hanya belajar dari kesalahan.</p>
+      <p class="about">Saya mahasiswa tahun pertama D4 Teknologi Rekayasa Elektro di UGM, berasal dari Cilacap. Saya suka memahami bagaimana listrik bekerja, dari mengukur dan merakit rangkaian sampai belajar pemrograman dari nol. Minat saya mengarah ke kendaraan listrik, dan saya terbiasa memimpin, berbicara di depan umum, serta bekerja dalam tim.</p>
+    </section>
+
+    <!-- TAB -->
+    <nav class="tabs" role="tablist" aria-label="Menu portofolio">
+      <button role="tab" aria-selected="false" aria-controls="pendidikan" data-tab="pendidikan">Pendidikan</button>
+      <button role="tab" aria-selected="false" aria-controls="keahlian" data-tab="keahlian">Keahlian</button>
+      <button role="tab" aria-selected="false" aria-controls="pengalaman" data-tab="pengalaman">Pengalaman</button>
+      <button role="tab" aria-selected="false" aria-controls="penghargaan" data-tab="penghargaan">Penghargaan</button>
+      <button role="tab" aria-selected="false" aria-controls="minat" data-tab="minat">Proyek dan minat</button>
+      <button role="tab" aria-selected="false" aria-controls="kontak" data-tab="kontak">Kontak</button>
+    </nav>
+    <p class="hint" id="hint">Tentang saya.</p>
+
+    <!-- ISI TAB -->
+    <section class="panel" id="pendidikan" role="tabpanel" hidden>
+      <h2>Pendidikan</h2>
+      <ul class="list">
+        <li><strong>Universitas Gadjah Mada</strong><span>2026 – sekarang</span><em>Teknologi Rekayasa Elektro (D4)</em></li>
+        <li><strong>SMA Negeri 1 Cilacap</strong><span>2023 – 2026</span></li>
+      </ul>
+    </section>
+
+    <section class="panel" id="keahlian" role="tabpanel" hidden>
+      <h2>Keahlian</h2>
+      <div class="cols">
+        <div>
+          <h3>Teknis</h3>
+          <ul class="dots">
+            <li>Pengukuran dan pengujian: resistansi, tegangan, dan arus dengan alat ukur listrik</li>
+            <li>Merakit rangkaian listrik dengan rapi dan akurat</li>
+            <li>Dasar pemrograman (Python)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Non-teknis</h3>
+          <ul class="dots">
+            <li>Kepemimpinan</li>
+            <li>Public speaking</li>
+            <li>Kerja sama tim</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="pengalaman" role="tabpanel" hidden>
+      <h2>Pengalaman</h2>
+      <ul class="list">
+        <li><strong>Ketua 1 OSIS Atajaya, SMA Negeri 1 Cilacap</strong><span>1 periode</span>
+          <em>Memimpin dan mengoordinasikan anggota OSIS dalam merencanakan dan menjalankan kegiatan sekolah.</em></li>
+        <li><strong>Pembicara, SMP 6 Cilacap</strong><span>2026</span>
+          <em>Menyampaikan materi kepada siswa dalam program pembentukan karakter.</em></li>
+        <!-- di SMP sekitar tahun 2026 -->
+        <li><strong>Pekerja Food &amp; Beverage, AFONG COFFE</strong><span>Maret-Agustus</span>
+          <em>Melayani pelanggan dan menyiapkan pesanan dalam tim. Melatih pelayanan pelanggan, kerja sama tim, dan ketelitian saat sibuk.</em></li>
+      </ul>
+    </section>
+
+    <section class="panel" id="penghargaan" role="tabpanel" hidden>
+      <h2>Penghargaan</h2>
+      <ul class="list">
+        <li><strong>Juara Umum, OSIS Terbaik se-Cilacap</strong><span>2026</span></li>
+        <li><strong>Top 3, OSIS Paling Inovatif se-Cilacap</strong><span>2026</span></li>
+        <li><strong>Top 3, Media OSIS Terbaik se-Cilacap</strong><span>2026</span></li>
+      </ul>
+    </section>
+
+    <section class="panel" id="minat" role="tabpanel" hidden>
+      <h2>Proyek dan minat</h2>
+      <div class="cards">
+        <article>
+          <h3>Kendaraan listrik</h3>
+          <p>Tertarik pada sistem Electric Powertrain: bagaimana energi baterai diubah menjadi gerak lewat inverter dan motor.</p>
+        </article>
+        <article>
+          <h3>Rangkaian listrik</h3>
+          <p>Sedang mendalami analisis rangkaian DC, termasuk teorema superposisi dan Thevenin.</p>
+        </article>
+        <article>
+          <h3>Pemrograman Python</h3>
+          <p>Belajar dari dasar, saat ini berlatih memakai NumPy lewat praktikum.</p>
+        </article>
+        <article>
+          <h3>Sepak bola</h3>
+          <p>Bermain sebagai bek kanan, melatih kerja sama tim dan fokus di bawah tekanan.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="kontak" role="tabpanel" hidden>
+      <h2>Kontak</h2>
+      <p>Ingin ngobrol atau berkolaborasi? Hubungi saya lewat:</p>
+      <p class="links">
+        <a class="btn" href="https://www.linkedin.com/in/raditya-bima-erlangga-5ab205427" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="mailto:radityabimaerlangga.r@mail.ugm.ac.id">Kirim email</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="wrap">
+    <p>&copy; 2026 Raditya Bima Erlangga</p>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('[role="tab"]');
+    const panels = document.querySelectorAll('.panel');
+    const hint = document.getElementById('hint');
+
+    function show(id) {
+      panels.forEach(p => { p.hidden = (p.id !== id); });
+      tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tab === id));
+      hint.hidden = !!id;
+      if (id) document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    tabs.forEach(t => t.addEventListener('click', () => {
+      const open = t.getAttribute('aria-selected') === 'true';
+      show(open ? null : t.dataset.tab);
+    }));
+  </script>
+</body>
+</html>
